@@ -13,7 +13,7 @@ import { fetchRevenue } from '@/app/lib/data';
 export default async function RevenueChart({
   // revenue, // Chapter 8 - comment out this prop
 }: {
-  revenue: Revenue[];
+  // revenue: Revenue[];
 }) {
   const revenue = await fetchRevenue();
   const chartHeight = 350;
